@@ -12,6 +12,8 @@ public class Merge {
         //a为待排序数组，左边为i-j,右边为j+1-n
         //数组b为新排好序列的数组，做仓库作用
 
+        //其中i为a数组起始地址，j为地址中点，n为终止地址
+
 
             int k=i,m=j+1;
             for(;i<=j&&m<=n;k++){
@@ -40,6 +42,7 @@ public class Merge {
 
         public static void MergeSort(int []SR,int []TR1,int s,int t)
         {
+
 
             int m;
             //若首尾相同，则将这个元素放入TR1中
